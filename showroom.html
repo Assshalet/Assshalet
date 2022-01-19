@@ -1,29 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Showroom</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style type="text/css">
+  </style>
+  <title>Showroom</title>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <a class="logo" href="index.html"><img src="img/ema.png" alt="logo"></a>
-            <ul class="menu">
-                <li class="menu-li"><a class="menu-a" href="index.html">HOME</a></li>
-                <li class="menu-li"><a class="menu-a" href="products.html">PRODUCTS</a></li>
-                <li class="menu-li"><a class="menu-a" href="history.html">HISTORY</a></li>
-                <li class="menu-li"><a class="menu-a menu-active" href="showroom.html">SHOWROOM</a></li>
-                <li class="menu-li"><a class="menu-a" href="contacts.html">CONTACT</a></li>
-                <li class="menu-li d1"><form>
-  <input type="text" placeholder="Search...">
-  <button type="submit"><img src="img/search.png" alt="search"></button>
-                    </form></li>
-            </ul>
-            
-        </div>
-        <p class="contacts-phone history-text">*Your showroom will be here*</p>
+<script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="logo" href="index.html"><img src="img/ema.png" alt="logo"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="products.html">Products</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="history.html">History</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link menu-active" href="#">Showroom</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contacts.html">Contacts</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="conteiner">
+ <p class="contacts-phone history-text">*Showroom will be here*</p>
     </div>
     <div class="footer clearfix">
           <div class="contact-us">
